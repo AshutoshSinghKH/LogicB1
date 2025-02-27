@@ -1,0 +1,29 @@
+1. Answer is. The main method dont have static in class main.
+The missing term is Static. public static void main(String[] args). static allows the method to be called without creating an instance of the class. static function do not deal with object. So main function can be           execute without object. If we dont use static we need to create           object for small programs too. 
+
+2.Answer is. The missing term is public. The main method is not static in              class Main. public static void main(string[] args).public is              access modifier.
+access modifier-- determine karta hai asscessibility of class. Public is mandatory to define main method to the class. Making this main method public it can be execute from outside the class. 
+
+3.Answer is. The void is a keyword which tells Java that the main method won't return a value. In java main can not return anything. Int is used to return the integers. Void do not return anything.So it is used to not return anything.
+
+4.Answer is. The String[]agrs is used for to allow program to accept command line argruments. just like "Hello world". It is a sequence of character to display the message.
+
+5. Answer is. yes we can have multiple main methods. only the public static void main(String[] args) method is recognized as the entry point. public static void main(int[] args) will not automatically call by JVM. So we nee to call public static void main(int[] args) from another method.
+
+6. Answer is. In Java, all variables must be declared before they can be used. So Y should be declared. It gives compilation error.
+
+7. Answer is. Int data type only takes interger not character. The data type is designed in such a way that during compile time variable must be known.
+
+8. Answer is. ; it indicate the end statement. so it is required to understand for the compiler the statement came to end
+
+9. Answer is. Compiler do not understand the if i will use reserverd keywords. so compiler need to differntiate the what is keywords and user defined identifiers.
+
+11. Answer is. This array element dont have 6th element. Only initialised with 3 elements which is 0,1,2.. Index out of bound exception it will show.
+
+12 Answer is. It was continously printing infinite loop message. To avoid this i will use condition. Like while(a<10) and a++; so it will print 10 times only.
+
+14.Answer is. Hello is a string value can not assign to double data type. It will throw an error. Double is used for floating point no.
+
+15. Answer is. It is because type is mismatched. int is for integer only not for decimal. For floating point no or decimals double should be used. If result is declared with double
+
+

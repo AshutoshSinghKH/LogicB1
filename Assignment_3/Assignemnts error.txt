@@ -1,0 +1,56 @@
+Loop Errors Assignments
+
+Q1. Answer is. The correct version of code is ----- for (int i = 0; i < 10; i++) . It is because i initialise with zero
+ and condition is given that i<10. i-- is a decrement operator. So it will go backward or decrement by 1 after first iteration. So it will give a negative value. like after first iteration it will give -1 and fater second -2 and so on. So its an infinite loop.
+
+public class InfiniteForLoop {
+ public static void main(String[] args) {
+ for (int i = 0; i < 10; i++) {
+ System.out.println(i);
+ }
+ }
+} 
+
+
+Q2. Answer is. My expected error is " error: incompatible types: int cannot be converted to boolean while (count = 0)" this means there is an assignment operator not equality operator.
+To fix this code we need to change it as while(count==0) is correct verison. but still code will not execute in question the count is initialise with 5 condition is count==0, it will check from 0 and count is initialize by 5. So condition would evalute to false.
+
+
+Q3. Answer is. Actually Doo while loop is start from do and code inside the block will execute for once without checking the condition. After that it will check the condition and if condition is true it will execute again.
+Here it will give num =1 after first execution.Then it will check the condition. In mentioned condition num>0 , here num = 1, so loop continues indefinitely.
+
+
+Q4. Answer is. In condition it is given than i<=10 this means that i=10 but not greater than 10. So it need to change the condtion like i<10. i<10 means i is less than 10. So now it will give expected output.
+
+Q5. Answer is. Here i initialise with 10 but the condition shows i is not greater than zero. But increment operator is there so the value will keep increasing to an infinte. or infinite loop. "i" will keep increment after first iteration because i will never be less than i>0.
+if we want to coreect the program i-- decrement operaton should be used.
+
+Q6. Answer is. Because of parenthesis is not used here , so System.out.println("Done"); this line is outside the loop. After the loop the first statement imediately following the loop not second. I tried to replace System.out.println(i); this statement to System.out.println("Done");. After the loop the first statement immediately following the loop .
+
+Q7. Answer is. It is because count is not initialized. it is insufficient data for compiler to determine the value.
+
+Q8. Answer is. It will only print 1. Decrement is used so num will zero then condition will check which is num>0 butnum is zero now then condition will be false. then it will print only 1. for coreection  
+         int num = 1;
+        do {
+            System.out.println(num);
+            num++;
+        } while (num <= 5);
+    
+
+Q9. Answer is. This code does not run infinitely. The value will increment with +2. I think given code is correct. It depends on what kind of output user wants. the output is 0,2,4.
+
+Q10. Answer is. During the code execution got an error. It is because equality operator is not used. If equality operator is used then result is 10.
+
+Q11. Answer is. The output of program is 0,2,4. I think user want to get 0,1,2,3,4. Just we need to replace the i+=2 by i++. i+=2 will increment the no by 2.
+
+Q12. Answer is. The error shows that x is not accessible here because we can not initialize the x-Variable within the loop. x out of range and can not be access out side the loop because it is declared in the loop. It means first we need to initialize the value of x out side.             
+                int x =0;
+                    for (int i = 0; i < 5; i++) {
+            x = i * 2; // Update x in each iteration
+        }
+
+
+-------------------------------------------------------------------------------------------
+
+
+
